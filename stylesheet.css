@@ -1,0 +1,18 @@
+h1 {text-align: center; border-bottom: 5px solid navy}
+.contact-info {float: left;width:33%;text-align: center;}
+.social-contacts{text-align: center;}
+h2 {text-align: center; border-bottom: 4px solid green}
+.skill-highlight {float: left;width: 33%;text-align: center;}
+.p-allignment {clear:both;padding-top: 30px;}
+h3 {margin-left: 44px;}
+.core-competencies1{}
+.core-competencies2{}
+.core-competencies3{}
+h4 {text-align: center;border-bottom: 4px solid green}
+.job-title {text-align: center;font-weight: bold;border-bottom: 2px solid blue}
+.key-achievements {text-align: center;font-style: italic;}
+.company-description {font-weight: bold;}
+.date {float: right;}
+h5 {text-align: center;}
+.education-highlights {border-bottom: 4px solid green}
+.technical-expertise {}
