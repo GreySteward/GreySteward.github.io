@@ -1,18 +1,43 @@
 h1 {text-align: center; border-bottom: 5px solid navy}
 .contact-info {float: left;width:33%;text-align: center;}
 .social-contacts{text-align: center;}
-h2 {text-align: center; border-bottom: 4px solid green}
+h2.highlights {text-align: center; border-bottom: 4px solid green}
 .skill-highlight {float: left;width: 33%;text-align: center;}
 .p-allignment {clear:both;padding-top: 30px;}
-h3 {margin-left: 44px;}
+h3.competencies {margin-left: 44px; font-size: 1.4em !important; border-bottom: 4px solid rgb(127,0,0); margin-right: 300px;}
 .core-competencies1{}
 .core-competencies2{}
 .core-competencies3{}
-h4 {text-align: center;border-bottom: 4px solid green}
-.job-title {text-align: center;font-weight: bold;border-bottom: 2px solid blue}
+h2.experience {}
+.job-title {text-align: center;font-weight: bold;}
 .key-achievements {text-align: center;font-style: italic;}
 .company-description {font-weight: bold;}
 .date {float: right;}
-h5 {text-align: center;}
-.education-highlights {border-bottom: 4px solid green}
+h2.education {text-align: center;}
+h2 {border-bottom: 4px solid green; text-align: center;}
 .technical-expertise {}
+.background {
+	position: relative;
+	top: -130px;
+	color: white;
+}
+.background a:link, .address {
+  color: #00ff00;
+}
+ul#myTabs li {
+	width: 25%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+li.contact-info,ul.skill-highlights{list-style-type: none; font-weight: bold}
+.panel-body {}
+#myTabs {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.panel-default>.panel-heading {
+	background-color: #7AA3CC;
+	color: #000;
+}
+div.contact-note {text-align: center; font-weight: bold; font-style: italic}

@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="stylesheet.css"></head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 <body>
+<div style="position:relative;margin-bottom:-100px">
+	<img src="images/visionofsuccess.jpg" width="100%" />
+	<div class=background>
 	<h1>Chris I. Gibson</h1>
 	<p>
 		<ul>
-	<li class="contact-info">4155 2nd Ave S, Minneapolis MN 55409</li>
-		<li class="contact-info">              cigibson33@gmail.com
+	<li class="contact-info address">4155 2nd Ave S, Minneapolis MN 55409</li>
+		<li class="contact-info"><a href="mailto:cigibson33@gmail.com">cigibson33@gmail.com</a>
 		</li> 
-		<li class="contact-info">(206) 261-1959</li>
+		<li class="contact-info"><a href="tel:2062611959">(206) 261-1959</a></li>
 		
 	</ul>
 </p>
 <p class="social-contacts">
-	<a href= "https://www.linkedin.com/pub/chris-gibson/62/650/4a7">Linked In</a>
-	<a href= "http://facebook.com/greysteward">Facebook</a>
+	<a href= "https://www.linkedin.com/pub/chris-gibson/62/650/4a7"><img src="images/linkedin-32.png" style="background: #3B5998"></a>
+	<a href="http://facebook.com/greysteward"><img src="images/facebook-32.png" style="background: #3B5998"></a>
 </p>
+</div></div>
 </p>
-	<h2 style="clear:both">Service Delivery Coordinator</h2>
+
+<ul class="nav nav-tabs" role="tablist" id="myTabs">
+   <li role="presentation" class="active"><a href="#highlights" aria-controls="home" role="tab" data-toggle="tab">Qualification Highlights</a></li>
+    <li role="presentation"><a href="#experience" aria-controls="profile" role="tab" data-toggle="tab">Professional Experience</a></li>
+    <li role="presentation"><a href="#education" aria-controls="messages" role="tab" data-toggle="tab">Education</a></li>
+    <li role="presentation"><a href="#videos" aria-controls="messages" role="tab" data-toggle="tab">Videos</a></li>
+</ul>
+
+<div class="tab-content" id="myTabs">
+	<div role="tabpanel" class="tab-pane active" id="highlights">
+	<h2 class="highlights" style="clear:both">Qualification highlights</h2>
 	
-	<ul>
+	<ul class="skill-highlights">
 	<li class="skill-highlight"> Solution Development</li>
 		<li class="skill-highlight">Persuasive Communicator</li>
 		<li class="skill-highlight">Independent Initiative</li>
 	</ul>
-	<p class="p-allignment">Highly accomplished sales support professional in the telecommunications industry with extensive experience in specialized order and general problem resolution.  Results-oriented leader with recognized success in team management, employee relations, and customer service.  Proven track record of growing profitability through sound business practices and solid people development. Thrives in dynamic and ever changing environments while remaining pragmatic and focused.  Expertise in MS Office Suite as well as Independent Bell Operating Company Legacy Systems.</p>
-	<div style="float:right;">
-	<img src="P13.jpg" width="220px" height="250px">
+	<p class="p-allignment">Highly accomplished professional with extensive experience in specialized order and general problem resolution. Results oriented leader with recognized success in team leadership, employee relations and customer service. Proven track record of growing profitability through sound business practices and solid people development. Thrives in dynamic and ever changing environments while remaining pragmatic and focused. Expertise in MS Office Suites.</p>
+	<div style="float:right;">	
+	<img src="images/E7.jpg" width="220px" height="250px">
 </div>
-	<h3>Core Competencies</h3>
+
+	<h3 class="competencies">Core Competencies</h3>
 	<p class="core-competencies1">
 	<ul>
 		<li>Client Needs Assessment</li>
@@ -50,8 +68,21 @@
 		<li>Fiber Optics</li>
 	</ul>
 </p>
-<h4>PROFESSIONAL EXPERIENCE</h4>
+</div>
+<div role="tabpanel" class="tab-pane" id="experience">
+<h2 class="experience">Professional Experience</h2>
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="hoverExpand">
 <p class="job-title">Service Delivery Coordinator</p>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
 <div class="company-description"><div class="date">2006&ndash;2015</div>Qwest Communications DBA CenturyLink, Minneapolis Mn</div>
 <p>Major national telecommunications company headquartered in Monroe, Louisiana with over 47,0000 employees</p>
 <p>Service Delivery Coordinator has end to end responsibilty for all aspects of customer experience including initial cusotmer consult, order processing, coordinating service delivery and ensuring final customer satisfaction.</p>
@@ -63,7 +94,19 @@
 	<li>Manage large business accounts including POTS, ISDN, DSL, DS1, DS3, PRI, and trunks.  Expert with long distance, local dial tone, and Hi-Cap circuits.</li>
 	<li>Analyzed internal service data to ensure proper methods and procedures.</li>
 </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="hoverExpand">
 <p class="job-title">Sales Support Specialist</p>
+</a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
 <div class="company-description"><div class="date">	2000&ndash;2006
 </div>Qwest Communications, Phoenix, Arizona and Seattle, Washington</div>
 <p>Sales Support Specialist is responsiblle for consulting customer needs and matching customer with best premier communication solutions. Including closing sales and processing order through multiple order platforms and resolving customer challenges. </p>
@@ -73,17 +116,119 @@
 	<li>Manage small business accounts including POTS, ISDN, DSL, DS1, DS3, PRI, and trunks.  Expert with long distance, local dial tone, and Hi-Cap circuits.</li>
 	<li>Analyzed internal service data to ensure proper methods and procedures</li>
 </ul>
+</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="hoverExpand">
 <p class="job-title">Sales Consultant</p>
+</a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
 <div class="company-description"><div class="date"> 1999&ndash;2000</div>Qwest Communications, Seattle, Washington</div>
 <p>Managed inbound calls from small business customers offering to them a variety of telecommunications products.   Answered billing concerns, issued service orders, and resolved complaints utilizing appropriate sales techniques</p>
 <p class="key-achievements">Key Achievements:</p>
 <ul>
 	<li>Realized ranking of number one sales associate by the seventh month of employment and fourth month on sales floor with $58,000 in sales.</li> 
 	<li>Recognized by management as a critical team player and reassigned to another department rather than laid off when sales department closed.</li></ul>
-
-<h5 class="education-highlights">EDUCATION AND CERTIFICATIONS</h5>
+	</div>
+    </div>
+  </div>
+</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="education">	
+<h2 class="education">Education and Certifications</h5>
 <p><ul><li>B.A., Psychology, Seattle Pacific University, Seattle, Washington, 1993</li>
 <li>A.A., General Studies, North Seattle College, Seattle, Washington, 1991</li>
 <li>AC/DC and Basic Telephony, Certificate, North Seattle College, Seattle, Washington</li></ul></p>
+</div>
+<div role="tabpanel" class="tab-pane" id="videos">	
+<h2 class="videos">Interviews and Questions</h5>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="..." alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="..." alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<div style="border-top: 4px green solid">
+			<div class=contact-note>Thank you for reviewing my resume. Your feedback is appreciated. For any comments, questions or for further information please contact me below.</div><p>
+		<ul>
+	<li class="contact-info" style="color: #23527c">4155 2nd Ave S, Minneapolis MN 55409</li>
+		<li class="contact-info"><a href="mailto:cigibson33@gmail.com">cigibson33@gmail.com</a>
+		</li> 
+		<li class="contact-info"><a href="tel:2062611959">(206) 261-1959</a></li>
+		
+	</ul>
+</p>
+<p class="social-contacts">
+	<a href= "https://www.linkedin.com/pub/chris-gibson/62/650/4a7"><img src="images/linkedin-32.png" style="background: #3B5998"></a>
+	<a href="http://facebook.com/greysteward"><img src="images/facebook-32.png" style="background: #3B5998"></a>
+</p>
+</div>
+
+
+<script>
+// Tabs
+$('#myTabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+});
+$('#myTabs a:first').tab('show') // Select first tab
+
+// Accordion for Job Experience
+$('.panel-group').collapse()
+
+// Hover for Accordion for Job Experience
+$( ".hoverExpand" ).hover(
+    function() {
+        if (! $(this).hasClass('collapsing') && 
+            $(this).hasClass('collapsed')) {
+                $( this ).click();
+        }
+    }, function() {
+        if  (! $(this).hasClass('collapsing') || 
+             ! $(this).hasClass('collapsed')) {
+                $( this ).click();
+        }
+    }
+);
+
+// Videos Carousel
+$('.carousel').carousel()
+</script>
 </body>
 </html>
