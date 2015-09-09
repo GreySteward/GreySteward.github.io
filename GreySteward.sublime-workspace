@@ -11,7 +11,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11548,
+				"buffer_size": 11302,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/css/bootstrap-theme.min.css",
+			"settings":
+			{
+				"buffer_size": 23357,
 				"line_ending": "Unix"
 			}
 		},
@@ -19,7 +27,7 @@
 			"file": "stylesheet.css",
 			"settings":
 			{
-				"buffer_size": 1339,
+				"buffer_size": 1386,
 				"line_ending": "Unix"
 			}
 		}
@@ -92,15 +100,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 11548,
+						"buffer_size": 11302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8562,
-								8562
+								10591,
+								10591
 							]
 						],
 						"settings":
@@ -110,23 +118,17 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3655.0,
+						"translation.y": 4371.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
-					"file": "stylesheet.css",
+					"file": "bootstrap/css/bootstrap-theme.min.css",
 					"settings":
 					{
-						"buffer_size": 1339,
+						"buffer_size": 23357,
 						"regions":
 						{
 						},
@@ -142,7 +144,39 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 11.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "stylesheet.css",
+					"settings":
+					{
+						"buffer_size": 1386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1384,
+								1384
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 21.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -200,7 +234,7 @@
 		[
 			[
 				"",
-				"index.html"
+				"bootstrap/css/bootstrap-theme.min.css"
 			]
 		],
 		"width": 0.0
