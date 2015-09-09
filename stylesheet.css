@@ -19,10 +19,10 @@ h2 {border-bottom: 4px solid green; text-align: center;}
 .background {
 	position: relative;
 	top: -130px;
-	color: white;
+	color: #0000dd;
 }
 .background a:link, .address {
-  color: #00ff00;
+  color: #0000dd;
 }
 ul#myTabs li {
 	width: 25%;
