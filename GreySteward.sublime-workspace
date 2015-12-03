@@ -11,7 +11,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11207,
+				"buffer_size": 11221,
 				"line_ending": "Unix"
 			}
 		},
@@ -27,7 +27,7 @@
 			"file": "stylesheet.css",
 			"settings":
 			{
-				"buffer_size": 1386,
+				"buffer_size": 1378,
 				"line_ending": "Unix"
 			}
 		}
@@ -100,15 +100,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 11207,
+						"buffer_size": 11221,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1078,
+								1078
 							]
 						],
 						"settings":
@@ -118,7 +118,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5502.0,
+						"translation.y": 252.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -160,15 +160,15 @@
 					"file": "stylesheet.css",
 					"settings":
 					{
-						"buffer_size": 1386,
+						"buffer_size": 1378,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1384,
-								1384
+								1006,
+								1006
 							]
 						],
 						"settings":
@@ -176,7 +176,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 21.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -251,6 +251,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 169.0,
+	"side_bar_width": 199.0,
 	"status_bar_visible": true
 }
